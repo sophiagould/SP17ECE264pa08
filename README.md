@@ -156,9 +156,7 @@ visiting one more square in the maze: recursively call your search method
 
 So what do you do with the return value of the four recursive calls you make?
 
-1. If one of them returns true, that means the direction that call explores is
-  on the solution path, which also means the *current* square is on the   
-  solution path. Add the current square to the solution path, and return true.
+1. If one of them returns true, that means the direction that call explores is on the solution path, which also means the *current* square is on the    solution path. Add the current square to the solution path, and return true.
 2. If the recursive call returns false, that means that direction doesn't 
   work, so move on to the next recursive call.
 3. If *all* the recursive calls return false, that means the *current* square 
