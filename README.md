@@ -132,7 +132,7 @@ function, you're making the path one step longer and visiting one more square
 of the maze.
 
 You should interpret your recursive function as implementing the following
-lgoic: "Given all the squares I have visited so far, can I exit the maze by
+logic: "Given all the squares I have visited so far, can I exit the maze by
 adding this square to the solution path?"" If the answer is no, that means the
 current square is not part of the solution path, and the recursive method
 should return false. If the answer is yes, that means the current square *is*
@@ -142,8 +142,7 @@ and return true.
 The *base case* for a square is that the square represents the *end* of a
 path:
 
-1. It has been visited already -- the path can't be extended this way, so
-  return false
+1. It has been visited already -- the path can't be extended this way, so return false
 2. It is a wall -- this path fails, so return false.
 3. It is out of bounds -- this path fails, so return false.
 4. It is the exit -- this path succeeds, so return true and add this square as 
