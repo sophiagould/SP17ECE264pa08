@@ -206,7 +206,7 @@ would like, or you can use our [compiled
 version](https://engineering.purdue.edu/~milind/ece264/2017spring/assignments/pa07/maze.o).
 You will also need a version of path.c (with `writePath` working), or you can
 use our [compiled
-version](https://engineering.purdue.edu/~milind/ece264/2017spring/assignments/pa07/path.o).
+version](https://engineering.purdue.edu/~milind/ece264/2017spring/assignments/pa08/path.o).
 As usual, if you use our compiled versions of the code, you will need to
 develop your code on the ecegrid machines.
 
