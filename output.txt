@@ -1,0 +1,20 @@
+*****************************************************************************************************
+* [!] Please contact the person who made this commit if you beleive there are errors in the result. *
+* [!] In this case, it would be Akshada: kulkar18 at purdue dot edu.                                   *
+* [!] Do not contact the other TA as they would not be able to help!                                *
+*****************************************************************************************************
+
+[*] Cleaning up...
+[*] Attempting to compile with student's path.c and maze.c (if files are submitted - not required) and instructor's pa08.c ...
+[!] could not compile
+[*] Attempting to compile with instructor's path.c, maze.c and pa08.c ...
+[*] Passed!
+[*] Running tests...
+[*] You passed 3/3 invalid mazes.
+[*] You passed 3/3 mazes with one valid path
+[*] You passed 2/2 mazes with multiple valid paths
+[*] You passed 2/2 mazes with no walls
+[*] You passed 10/10 total mazes with instructor's path.c and maze.c.
+[*] Testing valgrind errors/memory leaks. (-50% for any error)
+[*] There are 0 byte(s) leaked.
+[*] There are 0 error(s) detected by valgrind.
