@@ -62,4 +62,5 @@ bool depthFirstSolve(Maze * m, MazePos curpos, char * path, int step) {
 		return true;
 	}
 	curpos.ypos--;
+	return false;
 }
